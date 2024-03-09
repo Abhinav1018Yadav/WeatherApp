@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topBar">
+        <div id="logo">
+            <img src="AY logo 3d.png" alt="logo" >
+            <div id="title"><h2>WEATHER APP</h2></div>
+        </div>
+        <!-- <button id="locBtn">current Location</button> -->
+        <div class="searchBox">
+            <input type="text" name="city" id="city" autocomplete="off" placeholder="enter city name...">
+        <button id="citySearch"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    <div id="weather_wrapper">
+        <div class="weatherCard">
+            <div class="currentTemp">
+                <span class="temp">22&deg;</span>
+                <span class="location">AYODHYA</span>
+            </div>
+            <div class="currentWeather">
+                <span class="conditions">&#xf00d;</span>
+                <div class="info">
+                    <span class="humidity">1.8 MM</span>
+                    <span class="wind">10 KM/H</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
